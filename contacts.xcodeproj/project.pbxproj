@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C365B93229F126000D1DBB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C365B92229F126000D1DBB1 /* GoogleService-Info.plist */; };
+		1C5FADFD229C4C84005A5678 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FADFC229C4C84005A5678 /* class.swift */; };
+		1C5FADFF229D3420005A5678 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FADFE229D3420005A5678 /* Handle.swift */; };
+		1C70C916229960A8008FF484 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70C915229960A8008FF484 /* DetailViewController.swift */; };
 		1CB2CE4B2297D408009F67CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE4A2297D408009F67CB /* AppDelegate.swift */; };
 		1CB2CE4D2297D408009F67CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE4C2297D408009F67CB /* ViewController.swift */; };
 		1CB2CE502297D408009F67CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB2CE4E2297D408009F67CB /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		1CB2CE552297D408009F67CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB2CE532297D408009F67CB /* LaunchScreen.storyboard */; };
 		1CB2CE602297D408009F67CB /* contactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE5F2297D408009F67CB /* contactsTests.swift */; };
 		1CB2CE6B2297D408009F67CB /* contactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE6A2297D408009F67CB /* contactsUITests.swift */; };
+		1CB2CE792297DA74009F67CB /* u4154.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB2CE782297DA74009F67CB /* u4154.png */; };
+		1CB2CE7D2297DBA3009F67CB /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE7C2297DBA3009F67CB /* ContactTableViewCell.swift */; };
+		EF8BE45D171507B9F28014D6 /* Pods_contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A053043C7838EF5ED5E8D13F /* Pods_contacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018906D4C195AF888A3D94DF /* Pods-contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts.release.xcconfig"; path = "Target Support Files/Pods-contacts/Pods-contacts.release.xcconfig"; sourceTree = "<group>"; };
+		1C365B92229F126000D1DBB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C5FADFC229C4C84005A5678 /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
+		1C5FADFE229D3420005A5678 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		1C70C915229960A8008FF484 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1CB2CE472297D408009F67CB /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB2CE4A2297D408009F67CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB2CE4C2297D408009F67CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		1CB2CE662297D408009F67CB /* contactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = contactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB2CE6A2297D408009F67CB /* contactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsUITests.swift; sourceTree = "<group>"; };
 		1CB2CE6C2297D408009F67CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB2CE782297DA74009F67CB /* u4154.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u4154.png; sourceTree = "<group>"; };
+		1CB2CE7C2297DBA3009F67CB /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		8B8C1767139EFC9283985B0A /* Pods-contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts.debug.xcconfig"; path = "Target Support Files/Pods-contacts/Pods-contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		A053043C7838EF5ED5E8D13F /* Pods_contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8BE45D171507B9F28014D6 /* Pods_contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10A30A5DCD01BF8830686322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A053043C7838EF5ED5E8D13F /* Pods_contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C5FADFB229C4C5C005A5678 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1C5FADFC229C4C84005A5678 /* class.swift */,
+			);
+			name = model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		1CB2CE3E2297D408009F67CB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				1CB2CE5E2297D408009F67CB /* contactsTests */,
 				1CB2CE692297D408009F67CB /* contactsUITests */,
 				1CB2CE482297D408009F67CB /* Products */,
+				8FAD7761222EAB1BB5915470 /* Pods */,
+				10A30A5DCD01BF8830686322 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +133,17 @@
 		1CB2CE492297D408009F67CB /* contacts */ = {
 			isa = PBXGroup;
 			children = (
+				1C5FADFB229C4C5C005A5678 /* model */,
 				1CB2CE4A2297D408009F67CB /* AppDelegate.swift */,
+				1CB2CE7C2297DBA3009F67CB /* ContactTableViewCell.swift */,
 				1CB2CE4C2297D408009F67CB /* ViewController.swift */,
+				1C5FADFE229D3420005A5678 /* Handle.swift */,
+				1C70C915229960A8008FF484 /* DetailViewController.swift */,
+				1CB2CE782297DA74009F67CB /* u4154.png */,
 				1CB2CE4E2297D408009F67CB /* Main.storyboard */,
 				1CB2CE512297D408009F67CB /* Assets.xcassets */,
 				1CB2CE532297D408009F67CB /* LaunchScreen.storyboard */,
+				1C365B92229F126000D1DBB1 /* GoogleService-Info.plist */,
 				1CB2CE562297D408009F67CB /* Info.plist */,
 			);
 			path = contacts;
@@ -125,6 +167,15 @@
 			path = contactsUITests;
 			sourceTree = "<group>";
 		};
+		8FAD7761222EAB1BB5915470 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B8C1767139EFC9283985B0A /* Pods-contacts.debug.xcconfig */,
+				018906D4C195AF888A3D94DF /* Pods-contacts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1CB2CE6F2297D408009F67CB /* Build configuration list for PBXNativeTarget "contacts" */;
 			buildPhases = (
+				970194A72AC36857A5A8E2A8 /* [CP] Check Pods Manifest.lock */,
 				1CB2CE432297D408009F67CB /* Sources */,
 				1CB2CE442297D408009F67CB /* Frameworks */,
 				1CB2CE452297D408009F67CB /* Resources */,
+				FCE9EE6F45AAD6413DD6CE64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +284,9 @@
 			files = (
 				1CB2CE552297D408009F67CB /* LaunchScreen.storyboard in Resources */,
 				1CB2CE522297D408009F67CB /* Assets.xcassets in Resources */,
+				1C365B93229F126000D1DBB1 /* GoogleService-Info.plist in Resources */,
 				1CB2CE502297D408009F67CB /* Main.storyboard in Resources */,
+				1CB2CE792297DA74009F67CB /* u4154.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +306,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		970194A72AC36857A5A8E2A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-contacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE9EE6F45AAD6413DD6CE64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contacts/Pods-contacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1CB2CE432297D408009F67CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB2CE7D2297DBA3009F67CB /* ContactTableViewCell.swift in Sources */,
 				1CB2CE4D2297D408009F67CB /* ViewController.swift in Sources */,
+				1C5FADFD229C4C84005A5678 /* class.swift in Sources */,
 				1CB2CE4B2297D408009F67CB /* AppDelegate.swift in Sources */,
+				1C70C916229960A8008FF484 /* DetailViewController.swift in Sources */,
+				1C5FADFF229D3420005A5678 /* Handle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +542,13 @@
 		};
 		1CB2CE702297D408009F67CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B8C1767139EFC9283985B0A /* Pods-contacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T62JBBV3UG;
 				INFOPLIST_FILE = contacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +562,13 @@
 		};
 		1CB2CE712297D408009F67CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018906D4C195AF888A3D94DF /* Pods-contacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T62JBBV3UG;
 				INFOPLIST_FILE = contacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
