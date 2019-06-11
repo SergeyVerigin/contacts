@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1C365B93229F126000D1DBB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C365B92229F126000D1DBB1 /* GoogleService-Info.plist */; };
+		1C48D36122A7A6E2007C61D9 /* ImageLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C48D36022A7A6E2007C61D9 /* ImageLoad.swift */; };
 		1C5FADFD229C4C84005A5678 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FADFC229C4C84005A5678 /* class.swift */; };
 		1C5FADFF229D3420005A5678 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FADFE229D3420005A5678 /* Handle.swift */; };
 		1C70C916229960A8008FF484 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C70C915229960A8008FF484 /* DetailViewController.swift */; };
+		1C8028B822AF953E00C95D13 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8028B722AF953E00C95D13 /* CustomTextField.swift */; };
+		1C8028BC22AFDA2900C95D13 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8028BB22AFDA2900C95D13 /* UploadImage.swift */; };
+		1C8028BE22AFDEAE00C95D13 /* DatabaseSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8028BD22AFDEAE00C95D13 /* DatabaseSwitch.swift */; };
+		1C8028C122AFE0C500C95D13 /* DatabaseSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8028C022AFE0C500C95D13 /* DatabaseSnapshot.swift */; };
 		1CB2CE4B2297D408009F67CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE4A2297D408009F67CB /* AppDelegate.swift */; };
 		1CB2CE4D2297D408009F67CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2CE4C2297D408009F67CB /* ViewController.swift */; };
 		1CB2CE502297D408009F67CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB2CE4E2297D408009F67CB /* Main.storyboard */; };
@@ -43,9 +48,14 @@
 /* Begin PBXFileReference section */
 		018906D4C195AF888A3D94DF /* Pods-contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts.release.xcconfig"; path = "Target Support Files/Pods-contacts/Pods-contacts.release.xcconfig"; sourceTree = "<group>"; };
 		1C365B92229F126000D1DBB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C48D36022A7A6E2007C61D9 /* ImageLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoad.swift; sourceTree = "<group>"; };
 		1C5FADFC229C4C84005A5678 /* class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
 		1C5FADFE229D3420005A5678 /* Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
 		1C70C915229960A8008FF484 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1C8028B722AF953E00C95D13 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		1C8028BB22AFDA2900C95D13 /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		1C8028BD22AFDEAE00C95D13 /* DatabaseSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseSwitch.swift; sourceTree = "<group>"; };
+		1C8028C022AFE0C500C95D13 /* DatabaseSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseSnapshot.swift; sourceTree = "<group>"; };
 		1CB2CE472297D408009F67CB /* contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB2CE4A2297D408009F67CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CB2CE4C2297D408009F67CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,9 +113,20 @@
 			isa = PBXGroup;
 			children = (
 				1C5FADFC229C4C84005A5678 /* class.swift */,
+				1C8028B722AF953E00C95D13 /* CustomTextField.swift */,
+				1C8028BB22AFDA2900C95D13 /* UploadImage.swift */,
 			);
 			name = model;
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1C8028BF22AFE0AC00C95D13 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1C8028BD22AFDEAE00C95D13 /* DatabaseSwitch.swift */,
+				1C8028C022AFE0C500C95D13 /* DatabaseSnapshot.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		1CB2CE3E2297D408009F67CB = {
@@ -133,11 +154,13 @@
 		1CB2CE492297D408009F67CB /* contacts */ = {
 			isa = PBXGroup;
 			children = (
+				1C8028BF22AFE0AC00C95D13 /* Database */,
 				1C5FADFB229C4C5C005A5678 /* model */,
 				1CB2CE4A2297D408009F67CB /* AppDelegate.swift */,
 				1CB2CE7C2297DBA3009F67CB /* ContactTableViewCell.swift */,
 				1CB2CE4C2297D408009F67CB /* ViewController.swift */,
 				1C5FADFE229D3420005A5678 /* Handle.swift */,
+				1C48D36022A7A6E2007C61D9 /* ImageLoad.swift */,
 				1C70C915229960A8008FF484 /* DetailViewController.swift */,
 				1CB2CE782297DA74009F67CB /* u4154.png */,
 				1CB2CE4E2297D408009F67CB /* Main.storyboard */,
@@ -365,11 +388,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB2CE7D2297DBA3009F67CB /* ContactTableViewCell.swift in Sources */,
+				1C8028BC22AFDA2900C95D13 /* UploadImage.swift in Sources */,
 				1CB2CE4D2297D408009F67CB /* ViewController.swift in Sources */,
 				1C5FADFD229C4C84005A5678 /* class.swift in Sources */,
 				1CB2CE4B2297D408009F67CB /* AppDelegate.swift in Sources */,
+				1C8028B822AF953E00C95D13 /* CustomTextField.swift in Sources */,
 				1C70C916229960A8008FF484 /* DetailViewController.swift in Sources */,
+				1C8028C122AFE0C500C95D13 /* DatabaseSnapshot.swift in Sources */,
 				1C5FADFF229D3420005A5678 /* Handle.swift in Sources */,
+				1C8028BE22AFDEAE00C95D13 /* DatabaseSwitch.swift in Sources */,
+				1C48D36122A7A6E2007C61D9 /* ImageLoad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
